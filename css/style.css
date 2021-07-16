@@ -1,0 +1,62 @@
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -.05rem;
+  font-size: 50px;
+  padding-top: 4rem;
+  padding-bottom: 2rem;
+}
+
+.img {
+  border: 1px solid #B54213;
+}
+
+.red {
+  color: red;
+}
+
+.form-control.red {
+  border: 2px solid red;
+  color: #000;
+}
+
+.form-control:hover { 
+  border: 2px solid #B54213;
+}
+
+b,
+th {
+  color: #B54213;
+}
+
+.table-info {
+  --bs-table-bg: #ffffff;
+  --bs-table-striped-bg: #ffffff;
+  --bs-table-striped-color: #000;
+  --bs-table-active-bg: #ffffff;
+  --bs-table-active-color: #000;
+  --bs-table-hover-bg: #ffffff;
+  --bs-table-hover-color: #000;
+  color: #000;
+  border-color: #000000
+}
+
+.bg-secondary {
+  background-color: #B54213 !important
+}
+
+.bg-info {
+  background-color: white !important
+}
+
+.bg-dark {
+  background-color: #B54213 !important
+}
+
+.bg-body {
+  background-color: #EBEBEB !important
+}
+
+.err {
+  color: red;
+}
