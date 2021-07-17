@@ -2,15 +2,6 @@
 // https://stackoverflow.com/questions/195951/how-can-i-change-an-elements-class-with-javascript
 // https://www.codexworld.com/add-timepicker-to-input-field-jquery-plugin/
 
-import training from './pictures/training.png';
-import trainingb from './pictures/trainingb.png';
-import booking from './pictures/booking.png';
-import bookingb from './pictures/bookingb.png';
-import chat from './pictures/chat.png';
-import chatb from './pictures/chatb.png';
-import news from './pictures/news.png';
-import newsb from './pictures/newsb.png';
-
 let fName = "";
 let fEmail = "";
 let fTelephone = "";
@@ -181,7 +172,7 @@ export function changeNews() {
 
 export function ShowAndHide1() {
     var x = document.getElementById('section1');
-    if (x.style.display == 'none') {
+    if (x.style.display === 'none') {
         x.style.display = 'block';
     } else {
         x.style.display = 'none';
@@ -190,7 +181,7 @@ export function ShowAndHide1() {
 
 export function ShowAndHide2() {
     var x = document.getElementById('section2');
-    if (x.style.display == 'none') {
+    if (x.style.display === 'none') {
         x.style.display = 'block';
     } else {
         x.style.display = 'none';
@@ -199,7 +190,7 @@ export function ShowAndHide2() {
 
 export function ShowAndHide3() {
     var x = document.getElementById('section3');
-    if (x.style.display == 'none') {
+    if (x.style.display === 'none') {
         x.style.display = 'block';
     } else {
         x.style.display = 'none';
@@ -208,7 +199,17 @@ export function ShowAndHide3() {
 
 export function ShowAndHide4() {
     var x = document.getElementById('section4');
-    if (x.style.display == 'none') {
+    if (x.style.display === 'none') {
+        x.style.display = 'block';
+    } else {
+        x.style.display = 'none';
+    }
+}
+
+export function ShowAndHide5() {
+    document.getElementById('mess').value = ''
+    var x = document.getElementById('section6');
+    if (x.style.display === 'none') {
         x.style.display = 'block';
     } else {
         x.style.display = 'none';

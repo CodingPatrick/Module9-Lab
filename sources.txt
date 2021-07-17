@@ -1,0 +1,19 @@
+
+Sources for this application:
+
+A lot of the code is mine that I re-used from Module6-Lab.
+
+Inspiration on the functions comes from: https://www.youtube.com/playlist?list=PL4cUxeGkcC9gZD-Tvwfod2gaISzfRiP9d
+
+Some CSS was taken from:
+Chat: https://bootsnipp.com/snippets/1ea0N
+Google Translate: https://www.w3schools.com/howto/howto_google_translate.asp
+News Article Boxes: https://getbootstrap.com/docs/5.0/examples/ (Album & Blog)
+
+Pictures: Google Images
+WNBA Article: https://www.espn.com/wnba/story/_/id/31818744/chicago-sky-allie-quigley-wins-3rd-career-3-point-contest
+NBA Article: https://www.jsonline.com/story/sports/nba/bucks/2021/07/14/milwaukee-bucks-vs-phoenix-suns-game-4-nba-finals-game-updates/7950702002/
+NCAA Article: https://www.npr.org/2021/04/06/984641991/baylor-defeats-gonzaga-to-win-its-1st-mens-ncaa-basketball-championship
+Olympic Article: https://www.espn.com/olympics/story/_/id/31808700/team-usa-falls-0-2-olympic-exhibitions-loss-australia
+
+All Icons from: https://icons8.com
