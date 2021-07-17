@@ -11,6 +11,47 @@
   border: 1px solid #B54213;
 }
 
+#show {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -60px;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+.title {
+  color: #000;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+#border {
+  border: 5px solid #B54213;
+}
+
 .red {
   color: red;
 }
@@ -31,14 +72,11 @@ th {
 
 .table-info {
   --bs-table-bg: #ffffff;
-  --bs-table-striped-bg: #ffffff;
-  --bs-table-striped-color: #000;
-  --bs-table-active-bg: #ffffff;
   --bs-table-active-color: #000;
   --bs-table-hover-bg: #ffffff;
   --bs-table-hover-color: #000;
   color: #000;
-  border-color: #000000
+  border: 2px solid #B54213;
 }
 
 .bg-secondary {
